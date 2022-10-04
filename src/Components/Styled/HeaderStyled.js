@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 import { createGlobalStyle } from "styled-components"
 
+
 export const GlobalStyle = createGlobalStyle`
 *{
     margin:0;
@@ -16,6 +17,7 @@ export const DivHeader = styled.div`
 display:flex;
 justify-content:space-between;
 background-color:rgb(241, 98, 129);
+
 
 `
 export const DivH = styled.div`
