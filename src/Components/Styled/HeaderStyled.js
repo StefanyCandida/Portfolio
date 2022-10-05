@@ -17,7 +17,7 @@ export const DivHeader = styled.div`
 display:flex;
 justify-content:space-between;
 background-color:rgb(241, 98, 129);
-
+height:15vh;
 
 `
 export const DivH = styled.div`
@@ -33,19 +33,24 @@ font-size:3em;
 
 `
 export const Button = styled.button`
-display:none;
+height:100%;
+width:5vw;
+font-size:2em;
 @media (max-width: 800px) {
-    display:initial;
-    font-size:7rem;
+  width:15vw;
+    font-size:4em;
   }
+
 
 `
 export const Nav = styled.nav`
-width:50%;
-@media (max-width: 800px) {
-    display:none;
-    
-  }
+width:70%;
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+
+
+
 `
 export const Ul = styled.ul`
 display:flex;
@@ -54,6 +59,11 @@ align-items:center;
 height:10vh;
 font-size:3em;
 text-decoration: none;
+width:70%;
+@media (max-width: 800px) {
+  width:70%;
+  font-size:1em;
+}
 `
 export const Links = styled(Link)`
 text-decoration: none;

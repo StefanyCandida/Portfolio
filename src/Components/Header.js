@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import Home from './Home'
 import About from './About'
 import Works from './Works'
-import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import * as S from './Styled/HeaderStyled'
+import Nav from "./Nav"
 
 export default function Header(){
 const [open, setOpen]=useState()
@@ -15,17 +16,12 @@ const [open, setOpen]=useState()
             <S.DivH>
                 <S.H>SCF</S.H>
             </S.DivH>
-            <S.Button onClick={() => {setOpen(!open);}}>
-        {open === true ? "x" : "≣"}
-      </S.Button>
+           
 
-            <S.Nav>
-                <S.Ul>
-                    <S.Links to='/'>Home</S.Links>
-                    <S.Links to='/about'>About</S.Links>
-                    <S.Links to='/works'>Works</S.Links>
-                </S.Ul>
-            </S.Nav>
+           {open && <Nav link1="Home" link2="About" link3="Works"/>}
+             <S.Button onClick={() => {setOpen(!open);}}>
+        {open === true ? "x" : "≣ " }
+      </S.Button>
         </S.DivHeader>
         <Routes>
             <Route path="/" element={<Home/>}/>
