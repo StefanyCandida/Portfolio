@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/%20/static/css/main.e6c13ad2.css",
-    "main.js": "/Portfolio/%20/static/js/main.ed1d6489.js",
+    "main.js": "/Portfolio/%20/static/js/main.56a4cd8b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/%20/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Rick.png": "/Portfolio/%20/static/media/Rick.33af58e686753e6aee27.png",
+    "static/media/star.png": "/Portfolio/%20/static/media/star.2f1d721e5afde2918dfe.png",
+    "static/media/hp.png": "/Portfolio/%20/static/media/hp.a8fc949616e298ffec67.png",
+    "static/media/TheWitcher.png": "/Portfolio/%20/static/media/TheWitcher.bb6ca02268f89fdaea6d.png",
+    "static/media/Todo.png": "/Portfolio/%20/static/media/Todo.786728c2d2a5ba7f9408.png",
+    "static/media/recipes.png": "/Portfolio/%20/static/media/recipes.c12f87a54ccba72018d8.png",
+    "static/media/Logo.png": "/Portfolio/%20/static/media/Logo.68ed00775102f5737dbf.png",
     "static/media/Stefany08.jpg": "/Portfolio/%20/static/media/Stefany08.6a0e9db9fa5ea0b72f05.jpg",
-    "static/media/ceu2.jpg": "/Portfolio/%20/static/media/ceu2.501971c414873d03240f.jpg",
     "static/media/ceu.jpg": "/Portfolio/%20/static/media/ceu.820ef27413a20741c41a.jpg",
     "index.html": "/Portfolio/%20/index.html",
     "main.e6c13ad2.css.map": "/Portfolio/%20/static/css/main.e6c13ad2.css.map",
-    "main.ed1d6489.js.map": "/Portfolio/%20/static/js/main.ed1d6489.js.map",
+    "main.56a4cd8b.js.map": "/Portfolio/%20/static/js/main.56a4cd8b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/%20/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ed1d6489.js"
+    "static/js/main.56a4cd8b.js"
   ]
 }
