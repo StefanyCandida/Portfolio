@@ -12,6 +12,9 @@ display:flex;
 justify-content:space-evenly;
 align-items:center;
 
+@media (max-width: 800px) {
+ flex-direction:column;
+}
 
 `
 export const Figure = styled.figure`
@@ -20,6 +23,10 @@ align-items:center;
 justify-content:center;
 height:45vh;
 width:30%;
+@media (max-width: 800px) {
+  width:80%;
+
+ }
 
 `
 export const Img = styled.img`
@@ -31,6 +38,12 @@ border-radius:10%;
     height:90%;
 }
 
+@media (max-width: 800px) {
+  &:hover{
+    width:80%;
+    height:80%;
+}
+ }
 `
 
 export const A = styled.a`
@@ -56,6 +69,8 @@ justify-content:center;
     font-size:5em;
 }@media (max-width: 800px) {
     font-size:2em;
+    &:hover{
+      font-size:2em;
   }
 
 `
@@ -73,6 +88,9 @@ font-size:1.5em;
 @media (max-width: 800px) {
     flex-direction:column;
     font-size:1em;
+    &:hover{
+      font-size:1em;
+  }
   }
 
 `

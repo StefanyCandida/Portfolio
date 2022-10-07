@@ -21,7 +21,7 @@ font-size:5em;
 color:#743959;
 
 @media (max-width: 800px) {
-    font-size:3em;
+    font-size:2em;
   }
 
 
@@ -48,8 +48,8 @@ font-size:2em;
   
 }
 @media (max-width: 800px) {
-     width:50%;
-     font-size:1em;
+     width:80%;
+    
   }
 `
 
@@ -61,10 +61,13 @@ border-radius:80px 80px 0 0;
 
 
 export const P = styled.p`
-font-size:0.7em;
+font-size:0.5em;
 width:70%;
+
 @media (max-width: 800px) {
   width:100%;
+  height:8vh;
+  text-indent: 15%;
 }
 
 `

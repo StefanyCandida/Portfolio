@@ -25,6 +25,11 @@ width:10%;
 display:flex;
 justify-content:center;
 align-items:center;
+@media (max-width: 800px) {
+
+  width:20%;
+  }
+
 `
 export const ImgLogo = styled.img`
 width:60%;
