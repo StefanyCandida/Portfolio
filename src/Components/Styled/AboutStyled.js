@@ -19,13 +19,13 @@ justify-content:space-evenly;
     flex-direction:column;
     justify-content:end;
     font-size:0.5em;
-  
+    height:70vh;
+ 
   }
 
 `
 export const DivAboutMeio = styled.div`
-height:65vh;
-
+height:75vh;
 display:flex;
 align-items:center;
 justify-content:space-evenly;
@@ -69,7 +69,7 @@ text-indent: 10%;
 @media (max-width: 800px) {
   font-size:2em;
   text-indent: 15%;
-  height:25vh;
+  height:75vh;
 
 }
 
