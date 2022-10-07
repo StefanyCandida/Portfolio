@@ -2,20 +2,20 @@ import styled from "styled-components"
 import { Link } from "react-router-dom"
 
 export const Nav = styled.nav`
-width:70%;
+width:80%;
 display:flex;
 justify-content:space-evenly;
 align-items:center;
-
 
 `
 
 export const DivNav = styled.div`
 display:flex;
-justify-content:flex-end;
+justify-content:space-evenly;
 align-items:center;
 height:15vh;
-width:70%;
+width:90%;
+
 
   
 `
@@ -35,6 +35,6 @@ width:70%;
 `
 export const Links = styled(Link)`
 text-decoration: none;
-color: black;
+color:#743959;
 `
 

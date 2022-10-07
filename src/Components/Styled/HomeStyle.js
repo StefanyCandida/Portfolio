@@ -13,12 +13,13 @@ height:20%;
 
 `
 export const H = styled.h2`
-height:100%;
+height:20vh;
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:5em;
-color:purple;
+color:#743959;
+
 @media (max-width: 800px) {
     font-size:3em;
   }
@@ -53,14 +54,14 @@ font-size:2em;
 `
 
 export const Img = styled.img`
-height:50vh;
+height:49vh;
 border-radius:80px 80px 0 0;
 
 `
 
 
 export const P = styled.p`
-font-size:1em;
+font-size:0.7em;
 width:70%;
 @media (max-width: 800px) {
   width:100%;

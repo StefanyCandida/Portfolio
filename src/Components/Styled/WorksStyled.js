@@ -18,19 +18,21 @@ export const Figure = styled.figure`
 display:flex;
 align-items:center;
 justify-content:center;
-height:35vh;
+height:45vh;
 width:30%;
 
 `
 export const Img = styled.img`
 width:80%;
 height:80%;
+border-radius:10%;
 &:hover{
     width:90%;
     height:90%;
 }
 
 `
+
 export const A = styled.a`
 text-decoration:none;
 color:black;
