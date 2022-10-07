@@ -20,7 +20,7 @@ export default function About(){
        <S.DivAboutMeio>
              <S.P> Convidada a virar a cadeira de aluna para Facilitadora em fevereiro de 2022, assim que finalizei o modulo 1 com pouco mais de 4 meses estudando, ter a oportunidade de ministrar aulas de Programação Front-end foi um divisor que deu uma injeção de conhecimento de base HTML, CSS, paginas WEB responsivas e ReactJS, cada aula ensinando aprendia um pouco mais e sempre buscando novas formas de ensinar para um melhor aprendizado dos alunos . </S.P>   
             <S.Figure> 
-                  <S.Img src={Macacao} alt="imagem"/> 
+                  <S.DivMeioImg src={Macacao} alt="imagem"/> 
             </S.Figure>      
        </S.DivAboutMeio>
        <S.DivAbout>
