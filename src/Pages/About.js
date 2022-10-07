@@ -18,7 +18,7 @@ export default function About(){
             <S.P> Me chamo Stefany, tenho 33 abos, cheguei no mundo da tecnologia a pouca mais de 1 ano, onde passei no processo e entrei na escola de Tecnoligia Vai na web.</S.P>
        </S.DivAbout>
        <S.DivAboutMeio>
-             <S.P> Convidada a virar a cadeira de aluna para Facilitadora, assim que finalizei o modulo 1 com 3 meses estudando, e ter a oportunidade de ministrar aulas de Programação Front-end, me deu uma up de base HTML , CSS, paginas WEB responsivas e ReactJS, cada aula aprendi a ver de uma forma diferente. </S.P>   
+             <S.P> Convidada a virar a cadeira de aluna para Facilitadora, assim que finalizei o modulo 1 com 3 meses estudando, e ter a oportunidade de ministrar aulas de Programação Front-end, me deu uma up de base HTML, CSS, paginas WEB responsivas e ReactJS, cada aula aprendi a ver de uma forma diferente. </S.P>   
             <S.Figure> 
                   <S.Img src={Macacao} alt="imagem"/> 
             </S.Figure>      
