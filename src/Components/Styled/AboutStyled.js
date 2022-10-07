@@ -24,7 +24,7 @@ justify-content:space-evenly;
 
 `
 export const DivAboutMeio = styled.div`
-height:55vh;
+height:65vh;
 
 display:flex;
 align-items:center;
@@ -32,13 +32,13 @@ justify-content:space-evenly;
 @media (max-width: 800px) {
     flex-direction:column-reverse;
     font-size:0.5em;
-    
+    height:70vh;
   }
 
 `
 export const Figure = styled.figure`
 height:100%;
-width:15%;
+width:18%;
 display:flex;
 align-items:center;
 @media (max-width: 800px) {
@@ -64,10 +64,10 @@ width:50%;
 height:100%;
 display:flex;
 align-items:center;
-font-size:1.5em;
+font-size:1.6em;
 text-indent: 10%;
 @media (max-width: 800px) {
- 
+  font-size:2em;
   text-indent: 15%;
 
 }

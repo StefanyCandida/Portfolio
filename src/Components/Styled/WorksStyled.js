@@ -65,12 +65,10 @@ font-size:3em;
 heigth:30%;
 display:flex;
 justify-content:center;
-&:hover{
-    font-size:5em;
-}@media (max-width: 800px) {
+
+@media (max-width: 800px) {
     font-size:2em;
-    &:hover{
-      font-size:2em;
+    
   }
 
 `
@@ -82,15 +80,10 @@ display:flex;
 justify-content:center;
 align-items:center;
 font-size:1.5em;
-&:hover{
-    font-size:2.5em;
-}
 @media (max-width: 800px) {
     flex-direction:column;
     font-size:1em;
-    &:hover{
-      font-size:1em;
-  }
+     width:100%;
   }
 
 `

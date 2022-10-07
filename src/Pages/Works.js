@@ -6,16 +6,16 @@ import Cronometro from '../Components/Img/ceu.jpg'
 import Recipes from '../Components/Img/recipes.png'
 import ApiRick from '../Components/Img/Rick.png'
 import Wicther from '../Components/Img/TheWitcher.png'
-import HPapi from '../Components/Img/hp.png'
+import HPApi from '../Components/Img/hp.png'
 import Todo from '../Components/Img/Todo.png'
 
 export default function Work() {
 
   const [Fav] = useState([{
     title: "Harry Potter",
-    img: HPapi,
+    img: HPApi,
     url: "https://stefanycandida.github.io/Api-HP/",
-    description: "Desafio de consumir API do Harry Porter com React Hooks, React Rotas e com uso de modal e ",
+    description: "Desafio de consumir API do Harry Porter com React Hooks, React Rotas e com uso de modal, prabalh foi apresentado ao leua alunos e fiz junto para incentivalos. ",
   },
   {
     title: "Star Wars",

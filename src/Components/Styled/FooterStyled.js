@@ -7,6 +7,7 @@ display flex;
 justify-content:center;
 align-items:center;
 
+
 `
 export const DivMap = styled.div`
 height:100%;
@@ -27,7 +28,7 @@ cursor:pointer;
 text-decoration:none;
 color:#f6a9bb;
 &:hover{
-    font-size:28vh;
+    font-size:25vh;
 }
 @media (max-width: 800px) {
  

@@ -44,9 +44,7 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 font-size:2em;
-&:hover{
-  
-}
+
 @media (max-width: 800px) {
      width:80%;
     
@@ -54,20 +52,23 @@ font-size:2em;
 `
 
 export const Img = styled.img`
-height:49vh;
+height:45vh;
 border-radius:80px 80px 0 0;
 
 `
 
 
 export const P = styled.p`
-font-size:0.5em;
+font-size:1em;
 width:70%;
+height:10vh;
 
 @media (max-width: 800px) {
   width:100%;
-  height:8vh;
+  height:9vh;
   text-indent: 15%;
+  font-size:0.6em;
+  
 }
 
 `
