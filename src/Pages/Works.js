@@ -15,25 +15,25 @@ export default function Work() {
     title: "Harry Potter",
     img: HPapi,
     url: "https://stefanycandida.github.io/Api-HP/",
-    description: "Consumi api com React Hooks",
+    description: "Desafio de consumir API do Harry Porter com React Hooks, React Rotas e com uso de modal e ",
   },
   {
     title: "Star Wars",
     img: Starwars,
     url: "https://stefanycandida.github.io/ProjetoFinalVaiNaWeb/",
-    description: "Site produzido com base em um desing do star wars, feito com somente HTML e CSS, para desafio final do MOD 1.",
+    description: "Site produzido com base em um desing do star wars, feito com somente HTML e CSS, desafio final do MOD 1.",
   },
   {
     title: "Cronometro",
     img: Cronometro,
     url: "",
-    description: "Cronometro feito sem modelo, usando animação e ReactJS.",
+    description: "Cronometro feito sem modelo.",
   },
   {
     title: "Todo",
     img: Todo,
     url: "https://836z74.csb.app/",
-    description: "Cronometro feito sem modelo, usando animação e ReactJS.",
+    description: "Cronometro feito sem modelo, usando props e ReactJS.",
   },
 
 
@@ -42,19 +42,19 @@ export default function Work() {
     title: "Recipes",
     img: Recipes,
     url: "https://stefanycandida.github.io/maddening-cake/",
-    description: "Site produzido com base em um desing para relembrar modelos de caixa e elementos do CSS.",
+    description: "Site com base em um desing para relembrar modelos de caixa e elementos do CSS.",
   },
   {
     title: "Api Rick Morty",
     img: ApiRick,
     url: "https://stefanycandida.github.io/RickMortyApi/",
-    description: "Site de informações de desenho, deixei o design responsivo pequenas telas, tecnologia HTML, CSS, JAVASCRIPT",
+    description: "Site de informações de desenho, feito por colaboração com Arê Gabriele, minha a parte fopi deixar o design responsivo para  pequenas telas, tecnologia HTML, CSS, JAVASCRIPT",
   },
   {
     title: "The Wicther",
     img: Wicther,
     url: "https://stefanycandida.github.io/The-Wither/",
-    description: "Desafio feito em HTML E CSS ",
+    description: "ite produzido com base em um desing do Vai na Web, feito em HTML E CSS.",
   },
   ])
 
