@@ -69,6 +69,7 @@ text-indent: 10%;
 @media (max-width: 800px) {
   font-size:2em;
   text-indent: 15%;
+  height:25vh;
 
 }
 
