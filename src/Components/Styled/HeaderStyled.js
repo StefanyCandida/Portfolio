@@ -17,7 +17,7 @@ export const DivHeader = styled.div`
 display:flex;
 justify-content:space-between;
 background-color:#f17c9d;
-height:20vh;
+height:15vh;
 
 `
 export const Figure = styled.figure`
@@ -106,4 +106,39 @@ width:70%;
 export const Links = styled(Link)`
 text-decoration: none;
 color: black;
+`
+
+export const Div = styled.div`
+height:20%;
+
+`
+export const Hdois = styled.h2`
+height:15vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:7em;
+color:#743959;
+
+@media (max-width: 800px) {
+    font-size:2em;
+  }
+
+
+
+`
+export const P = styled.p`
+height:10vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:5em;
+color:#743959;
+
+@media (max-width: 800px) {
+    font-size:2em;
+  }
+
+
+
 `

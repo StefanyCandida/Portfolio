@@ -27,6 +27,11 @@ const [open, setOpen]=useState()
       </S.Button>
       </S.DivMobile>
         </S.DivHeader>
+        <S.Div>
+            <S.Hdois>Developer Front-end</S.Hdois>
+            <S.P>Stéfany Candida Farias </S.P>
+           
+        </S.Div> 
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>

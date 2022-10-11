@@ -8,6 +8,11 @@ import ApiRick from '../Components/Img/Rick.png'
 import Wicther from '../Components/Img/TheWitcher.png'
 import HPApi from '../Components/Img/hp.png'
 import Todo from '../Components/Img/Todo.png'
+import { TbBrandCss3 } from "react-icons/tb";
+import { TbBrandHtml5 } from "react-icons/tb";
+import { TbBrandReactNative } from "react-icons/tb";
+import { IoLogoJavascript } from "react-icons/io";
+
 
 export default function Work() {
 
@@ -15,25 +20,30 @@ export default function Work() {
     title: "Harry Potter",
     img: HPApi,
     url: "https://stefanycandida.github.io/Api-HP/",
-    description: "Desafio de consumir API do Harry Porter com React Hooks, React Rotas e com uso de modal, prabalh foi apresentado ao leua alunos e fiz junto para incentivalos. ",
+    description: "Desafio de consumir API do Harry Porter com React Hooks, React Rotas e com uso de modal, trabalho foi apresentado aos alunos e fiz junto para incentivá-los.",
+  tecnologias: [<TbBrandHtml5/>,<TbBrandCss3/>]
+  
   },
   {
     title: "Star Wars",
     img: Starwars,
     url: "https://stefanycandida.github.io/ProjetoFinalVaiNaWeb/",
-    description: "Site produzido com base em um desing do star wars, feito com somente HTML e CSS, desafio final do MOD 1.",
+    description: "Site produzido com base em um design do star wars, feito com somente HTML e CSS, desafio final do MOD 1.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandCss3/>]
   },
   {
     title: "Cronometro",
     img: Cronometro,
     url: "",
     description: "Cronometro feito sem modelo.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
   },
   {
     title: "Todo",
     img: Todo,
     url: "https://836z74.csb.app/",
     description: "Cronometro feito sem modelo, usando props e ReactJS.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
   },
 
 
@@ -43,18 +53,21 @@ export default function Work() {
     img: Recipes,
     url: "https://stefanycandida.github.io/maddening-cake/",
     description: "Site com base em um desing para relembrar modelos de caixa e elementos do CSS.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
   },
   {
     title: "Api Rick Morty",
     img: ApiRick,
     url: "https://stefanycandida.github.io/RickMortyApi/",
     description: "Site de informações de desenho, feito por colaboração com Arê Gabriele, minha a parte fopi deixar o design responsivo para  pequenas telas, tecnologia HTML, CSS, JAVASCRIPT",
+    tecnologias: [<TbBrandHtml5/>, <IoLogoJavascript/>,<TbBrandCss3/>]
   },
   {
     title: "The Wicther",
     img: Wicther,
     url: "https://stefanycandida.github.io/The-Wither/",
-    description: "ite produzido com base em um desing do Vai na Web, feito em HTML E CSS.",
+    description: "Site produzido com base em um design do Vai na Web, feito em HTML E CSS.",
+    tecnologias: [<TbBrandHtml5/>,<TbBrandCss3/>]
   },
   ])
 
@@ -63,7 +76,7 @@ export default function Work() {
       {Fav.map((item) => (
 
         <S.A key={item.title} href={item.url} target="_blanck">
-          <S.DivMap>
+          <S.DivMap >
            <S.Figure>
              <S.Img src={item.img} alt={`Projetos: ${item.title}`}/>
              </S.Figure> 
@@ -71,6 +84,7 @@ export default function Work() {
               <S.H>{item.title}</S.H>
             
             <S.P>{item.description}</S.P>
+            <S.P>{item.tecnologias}</S.P>
             </S.DivInt>          
              
            </S.DivMap>     

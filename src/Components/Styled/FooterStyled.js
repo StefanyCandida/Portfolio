@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 
 export const DivFooter = styled.div`
-height:15vh;
+height:12vh;
 display flex;
 justify-content:center;
 align-items:center;

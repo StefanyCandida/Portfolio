@@ -5,6 +5,8 @@ import { ImLinkedin2 } from "react-icons/im";
 import { SiWhatsapp } from "react-icons/si";
 
 
+
+
 export default function Footer(){
     
 

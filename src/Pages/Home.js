@@ -7,9 +7,7 @@ export default function Works(){
 
     return(
     <S.DivHome> 
-        <S.Div>
-            <S.H>Developer Front-end</S.H>
-        </S.Div>  
+        
         <S.Divtwo>
             <S.Figure><S.Img src={Stefany} /></S.Figure>
             <S.Divthree>
