@@ -60,6 +60,7 @@ border:none;
   width:15vw;
     font-size:4em;
     width:50%;
+    color:#743959;
   }
 
 

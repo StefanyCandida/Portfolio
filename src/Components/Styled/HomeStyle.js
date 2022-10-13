@@ -53,7 +53,7 @@ font-size:2em;
 
 export const Img = styled.img`
 height:45vh;
-border-radius:80px 80px 0 0;
+border-radius:10px ;
 
 `
 

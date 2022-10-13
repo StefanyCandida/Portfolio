@@ -8,13 +8,14 @@ import ApiRick from '../Components/Img/Rick.png'
 import Wicther from '../Components/Img/TheWitcher.png'
 import HPApi from '../Components/Img/hp.png'
 import Todo from '../Components/Img/Todo.png'
-import { TbBrandCss3 } from "react-icons/tb";
-import { TbBrandHtml5 } from "react-icons/tb";
-import { TbBrandReactNative } from "react-icons/tb";
+
+import { TbBrandHtml5 , TbBrandReactNative, TbBrandCss3 } from "react-icons/tb";
+
 import { IoLogoJavascript } from "react-icons/io";
 
 
 export default function Work() {
+
 
   const [Fav] = useState([{
     title: "Harry Potter",
@@ -70,25 +71,27 @@ export default function Work() {
     tecnologias: [<TbBrandHtml5/>,<TbBrandCss3/>]
   },
   ])
+ 
+  
 
   return (
     <S.DivWork>
       {Fav.map((item) => (
 
-        <S.A key={item.title} href={item.url} target="_blanck">
+        <div>
           <S.DivMap >
            <S.Figure>
              <S.Img src={item.img} alt={`Projetos: ${item.title}`}/>
              </S.Figure> 
             <S.DivInt>
-              <S.H>{item.title}</S.H>
-            
+         
+              <S.A key={item.title} href={item.url} target="_blanck">{item.title}</S.A>
             <S.P>{item.description}</S.P>
-            <S.P>{item.tecnologias}</S.P>
+            <S.Tec>{item.tecnologias}</S.Tec>
             </S.DivInt>          
              
            </S.DivMap>     
-       </S.A>
+       </div>
       )) }
       <Footer/>
     </S.DivWork>

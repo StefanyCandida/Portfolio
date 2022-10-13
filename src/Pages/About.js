@@ -14,7 +14,7 @@ export default function About(){
     return(
     <S.DivAbo> 
          <S.H>Quem sou eu...</S.H> 
-       <S.DivAbout  id="about">  
+       <S.DivAbout>  
        <S.Figure>  
            <S.Img src={Eu} alt="imagem"/>
         </S.Figure> 
@@ -23,9 +23,9 @@ export default function About(){
        </S.DivAbout>
        <S.DivAboutMeio>
              <S.P> Convidada a virar a cadeira de aluna para Facilitadora em fevereiro de 2022, assim que finalizei o modulo 1 com pouco mais de 4 meses estudando, ter a oportunidade de ministrar aulas de Programação Front-end foi um divisor que deu uma injeção de conhecimento de base HTML, CSS, paginas WEB responsivas e ReactJS, cada aula ensinando aprendia um pouco mais e sempre buscando novas formas de ensinar para um melhor aprendizado dos alunos . </S.P>   
-            <S.Figure> 
-                  <S.DivMeioImg src={Macacao} alt="imagem"/> 
-            </S.Figure>   
+            <S.FigureMeio > 
+                  <S.Img src={Macacao} alt="imagem"/> 
+            </S.FigureMeio>   
            
              
        </S.DivAboutMeio>
@@ -35,9 +35,10 @@ export default function About(){
         </S.Figure>   
             <S.P> Costumo dizer que sou amigavel, com isso tenho facilidade de trabalhar em equipe, sou positiva o que contagia não só meu parceiro de trabalho como tambem meus alunos. </S.P>
        </S.DivAbout>
-       <S.DivAbout>
-            <S.Ps> Essas são as tecnologia que eu sei: <TbBrandHtml5/><TbBrandReactNative/> <TbBrandCss3/></S.Ps>
-        </S.DivAbout> 
+       <S.DivAboutTec>
+            <S.Ps> Essas são as tecnologia que eu sei:</S.Ps>
+            <S.Ps> <TbBrandHtml5/><TbBrandReactNative/> <TbBrandCss3/></S.Ps>
+        </S.DivAboutTec> 
        <Footer/>
     </S.DivAbo>
     )

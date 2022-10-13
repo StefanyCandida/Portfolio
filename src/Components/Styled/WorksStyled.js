@@ -33,9 +33,10 @@ export const Img = styled.img`
 width:80%;
 height:80%;
 border-radius:10%;
+object-fit: cover;
 &:hover{
-    width:90%;
-    height:90%;
+    width:100%;
+    height:100%;
 }
 
 @media (max-width: 800px) {
@@ -49,18 +50,6 @@ border-radius:10%;
 export const A = styled.a`
 text-decoration:none;
 color:black;
-
-`
-
-export const DivInt = styled.div`
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-width:60%;
-height:30vh;
-`
-export const H = styled.h3`
 font-size:3em;
 heigth:30%;
 display:flex;
@@ -72,6 +61,16 @@ justify-content:center;
   }
 
 `
+
+export const DivInt = styled.div`
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+width:60%;
+height:30vh;
+`
+
 
 export const P = styled.p`
 height:100%;
@@ -86,4 +85,12 @@ font-size:1.5em;
      width:100%;
   }
 
+`
+export const Tec = styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+width:60%;
+height:10vh;
+font-size:2.5em;
 `
