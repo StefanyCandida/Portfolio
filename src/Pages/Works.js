@@ -8,13 +8,15 @@ import ApiRick from '../Components/Img/Rick.png'
 import Wicther from '../Components/Img/TheWitcher.png'
 import HPApi from '../Components/Img/hp.png'
 import Todo from '../Components/Img/Todo.png'
+import Finn from '../Components/Img/Finn.png'
+import Riot from '../Components/Img/Riot.png'
 
 import { TbBrandHtml5 , TbBrandReactNative, TbBrandCss3 } from "react-icons/tb";
 
 import { IoLogoJavascript } from "react-icons/io";
 
 
-export default function Work() {
+export default function Work() { 
 
 
   const [Fav] = useState([{
@@ -22,15 +24,22 @@ export default function Work() {
     img: HPApi,
     url: "https://stefanycandida.github.io/Api-HP/",
     description: "Desafio de consumir API do Harry Porter com React Hooks, React Rotas e com uso de modal, trabalho foi apresentado aos alunos e fiz junto para incentivá-los.",
-  tecnologias: [<TbBrandHtml5/>,<TbBrandCss3/>]
+    tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
   
   },
   {
-    title: "Star Wars",
-    img: Starwars,
-    url: "https://stefanycandida.github.io/ProjetoFinalVaiNaWeb/",
-    description: "Site produzido com base em um design do star wars, feito com somente HTML e CSS, desafio final do MOD 1.",
-    tecnologias: [<TbBrandHtml5/>, <TbBrandCss3/>]
+    title: "Recipes",
+    img: Recipes,
+    url: "https://stefanycandida.github.io/maddening-cake/",
+    description: "Site com base em um desing para relembrar modelos de caixa e elementos do CSS.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
+  },  
+  {
+    title: "Login LOL",
+    img: Riot,
+    url: "https://stefanycandida.github.io/login-projeto/",
+    description: "Site de informações de jogo, feito em tecnologia HTML, CSS, JAVASCRIPT",
+    tecnologias: [<TbBrandHtml5/>, <IoLogoJavascript/>,<TbBrandCss3/>]
   },
   {
     title: "Cronometro",
@@ -47,15 +56,6 @@ export default function Work() {
     tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
   },
 
-
-  
-  {
-    title: "Recipes",
-    img: Recipes,
-    url: "https://stefanycandida.github.io/maddening-cake/",
-    description: "Site com base em um desing para relembrar modelos de caixa e elementos do CSS.",
-    tecnologias: [<TbBrandHtml5/>, <TbBrandReactNative/>,<TbBrandCss3/>]
-  },
   {
     title: "Api Rick Morty",
     img: ApiRick,
@@ -64,14 +64,31 @@ export default function Work() {
     tecnologias: [<TbBrandHtml5/>, <IoLogoJavascript/>,<TbBrandCss3/>]
   },
   {
+    title: "Star Wars",
+    img: Starwars,
+    url: "https://stefanycandida.github.io/ProjetoFinalVaiNaWeb/",
+    description: "Site produzido com base em um design do star wars, feito com somente HTML e CSS, desafio final do MOD 1.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandCss3/>]
+  },
+  {
+    title: "Finn",
+    img: Finn,
+    url: "https://stefanycandida.github.io/Finn/",
+    description: "Site produzido com base em um design do star wars, feito com somente HTML e CSS, para desenvolvimento de position.",
+    tecnologias: [<TbBrandHtml5/>, <TbBrandCss3/>]
+  },
+  {
     title: "The Wicther",
     img: Wicther,
     url: "https://stefanycandida.github.io/The-Wither/",
     description: "Site produzido com base em um design do Vai na Web, feito em HTML E CSS.",
     tecnologias: [<TbBrandHtml5/>,<TbBrandCss3/>]
-  },
+  }
   ])
  
+  
+
+
   
 
   return (
