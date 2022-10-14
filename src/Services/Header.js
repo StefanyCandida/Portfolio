@@ -29,7 +29,7 @@ const [open, setOpen]=useState()
       </S.DivMobile>
         </S.DivHeader>
         <S.Div>
-            <S.Hdois>Developer Front-end</S.Hdois>
+            <S.Hdois>Desenvolvedora Front-end</S.Hdois>
             <S.P>Stéfany Candida Farias </S.P>
            
         </S.Div> 

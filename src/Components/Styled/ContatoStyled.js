@@ -76,11 +76,13 @@ flex-direction:column;
 `
 export const A = styled.a`
 color:#ad5478;
+
 text-decoration:none;
 @media (max-width: 800px) {
-    flex-direction:column;
-    font-size:0.5em;
-  
+    display:flex;
+    align-items:end;
+   font-size:0.5em;
+    height:35%;
   
   }
 `

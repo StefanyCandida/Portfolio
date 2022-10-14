@@ -122,7 +122,8 @@ font-size:7em;
 color:#743959;
 
 @media (max-width: 800px) {
-    font-size:2em;
+    font-size:1.8em;
+    height:10vh;
   }
 
 
@@ -137,7 +138,8 @@ font-size:5em;
 color: #f6a9bb;
 
 @media (max-width: 800px) {
-    font-size:2em;
+    font-size:1.7em;
+    height:8vh;
   }
 
 
