@@ -10,8 +10,7 @@ export default function Contatos() {
     const form = useRef();
 
     const sendEmail = (e) => {
-    e.preventDefault();
-     
+    e.preventDefault();     
 
     emailjs.sendForm('service_b101ta7', 'template_lopfyx6', form.current, '8QzIMBR8jyjpF3d92')
       .then((result) => {
@@ -36,8 +35,7 @@ export default function Contatos() {
                 <S.Label for="msg">Mensagem:</S.Label>
 	            <S.Textarea id="msg" name="message" rows="9" cols="50" placeholder="Mensagem"></S.Textarea>
             </S.DivT>
-            <S.Button value="Send"> Enviar</S.Button>
-            
+            <S.Button value="Send"> Enviar</S.Button>            
         </S.Form>
         <S.DivIcone>
        
