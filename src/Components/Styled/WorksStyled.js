@@ -31,7 +31,7 @@ width:30%;
 `
 export const Img = styled.img`
 width:90%;
-border-radius:5%;
+border-radius:4%;
 object-fit: cover;
 &:hover{
     width:100%;
