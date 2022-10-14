@@ -93,5 +93,5 @@ align-items:center;
 width:60%;
 height:10vh;
 font-size:2.5em;
-
+color:#ad5478;
 `

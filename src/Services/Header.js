@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Home from '../Pages/Home'
 import About from '../Pages/About'
 import Works from '../Pages/Works'
+import Contatos from '../Pages/Contatos'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import * as S from '../Components/Styled/HeaderStyled'
 import Nav from "./Nav"
@@ -17,11 +18,11 @@ const [open, setOpen]=useState()
                 
             </S.Figure>
            <S.DivDesk>
-           <Nav link1="Home" link2="About" link3="Works"/>
+           <Nav link1="Home" link2="About" link3="Works" link4="Contatos"/>
            </S.DivDesk>
             
             <S.DivMobile>
-           {open && <Nav link1="Home" link2="About" link3="Works"/>}
+           {open && <Nav link1="Home" link2="About" link3="Works" link4="Contatos"/>}
              <S.Button onClick={() => {setOpen(!open);}}>
         {open === true ? "x" : "≣ " }
       </S.Button>
@@ -36,6 +37,7 @@ const [open, setOpen]=useState()
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/works" element={<Works/>}/>
+            <Route path="/contatos" element={<Contatos/>}/>
         </Routes>
             </BrowserRouter>
     )
