@@ -19,6 +19,11 @@ display:flex;
 align-items:center;
 flex-direction:column;
 justify-content:space-evenly;
+@media (max-width: 800px) {
+    flex-direction:column;
+    font-size:0.5em;
+     width:90%;
+  }
 `
 export const DivDados = styled.div`
 width:90%;
@@ -67,9 +72,15 @@ height:40%;
 justify-content:space-evenly;
 display:flex;
 flex-direction:column;
+
 `
 export const A = styled.a`
 color:#ad5478;
 text-decoration:none;
-
+@media (max-width: 800px) {
+    flex-direction:column;
+    font-size:0.5em;
+  
+  
+  }
 `
