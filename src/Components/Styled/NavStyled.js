@@ -37,4 +37,3 @@ export const Links = styled(Link)`
 text-decoration: none;
 color:#743959;
 `
-

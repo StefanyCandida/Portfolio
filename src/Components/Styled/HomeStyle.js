@@ -62,6 +62,7 @@ export const P = styled.p`
 font-size:1em;
 width:70%;
 height:10vh;
+color:#ad5478;
 
 @media (max-width: 800px) {
   width:100%;

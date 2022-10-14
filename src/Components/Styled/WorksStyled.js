@@ -21,7 +21,7 @@ export const Figure = styled.figure`
 display:flex;
 align-items:center;
 justify-content:center;
-height:45vh;
+height:35vh;
 width:30%;
 @media (max-width: 800px) {
   width:80%;
@@ -30,9 +30,8 @@ width:30%;
 
 `
 export const Img = styled.img`
-width:80%;
-height:80%;
-border-radius:10%;
+width:90%;
+border-radius:5%;
 object-fit: cover;
 &:hover{
     width:100%;
@@ -40,10 +39,10 @@ object-fit: cover;
 }
 
 @media (max-width: 800px) {
-  &:hover{
-    width:80%;
-    height:80%;
-}
+ 
+    width:100%;
+    height:100%;
+
  }
 `
 
@@ -54,7 +53,7 @@ font-size:3em;
 heigth:30%;
 display:flex;
 justify-content:center;
-
+ color:#ad5478;
 @media (max-width: 800px) {
     font-size:2em;
     
@@ -79,6 +78,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 font-size:1.5em;
+color:#f17c9d;
 @media (max-width: 800px) {
     flex-direction:column;
     font-size:1em;
@@ -86,11 +86,12 @@ font-size:1.5em;
   }
 
 `
-export const Tec = styled.div`
+export const Icone = styled.p`
 display:flex;
 justify-content:center;
 align-items:center;
 width:60%;
 height:10vh;
 font-size:2.5em;
+
 `

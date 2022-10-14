@@ -5,15 +5,10 @@ import { ImLinkedin2 } from "react-icons/im";
 import { SiWhatsapp } from "react-icons/si";
 
 
-
-
 export default function Footer(){
-    
-
-    
+       
     return(
     <S.DivFooter>  
-         
                    
              <S.DivMap>
                 
@@ -22,8 +17,6 @@ export default function Footer(){
                 <S.A href='https://www.linkedin.com/in/stefanycandida/' target="_blanck"><ImLinkedin2/></S.A>
              </S.DivMap>
  
-       
-      
     </S.DivFooter>
     )
 }

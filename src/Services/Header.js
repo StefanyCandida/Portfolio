@@ -8,13 +8,13 @@ import Nav from "./Nav"
 import Logo from '../Components/Img/Logo.png'
 export default function Header(){
 const [open, setOpen]=useState()
-    
 
     return(
     <BrowserRouter>   
         <S.DivHeader>
             <S.Figure>
                 <S.ImgLogo src={Logo}/>
+                
             </S.Figure>
            <S.DivDesk>
            <Nav link1="Home" link2="About" link3="Works"/>

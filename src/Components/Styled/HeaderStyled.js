@@ -5,13 +5,13 @@ import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
 *{
-    margin:0;
-    padding:0;
-    box-size:border-box;
-
+  margin:0;
+  padding:0;
+  outline:0;
+  box-sizing:border-box;
 }
 
-`
+`;
 
 export const DivHeader = styled.div`
 display:flex;
@@ -134,7 +134,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 font-size:5em;
-color:#743959;
+color: #f6a9bb;
 
 @media (max-width: 800px) {
     font-size:2em;
