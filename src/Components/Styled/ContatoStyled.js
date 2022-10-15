@@ -76,8 +76,8 @@ align-items:center;
 width:20%;
 
 @media (max-width: 800px) {
-    
-    width:60%;
+   
+    width:61%;
   }
 `
 export const A = styled.a`
