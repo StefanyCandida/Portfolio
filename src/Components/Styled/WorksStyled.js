@@ -24,7 +24,7 @@ justify-content:center;
 height:35vh;
 width:30%;
 @media (max-width: 800px) {
-  width:80%;
+  width:70%;
 
  }
 
@@ -49,13 +49,13 @@ object-fit: cover;
 export const A = styled.a`
 text-decoration:none;
 color:black;
-font-size:3em;
+font-size:2.5vw;
 heigth:30%;
 display:flex;
 justify-content:center;
  color:#ad5478;
 @media (max-width: 800px) {
-    font-size:2em;
+   
     
   }
 
@@ -77,11 +77,11 @@ width:70%;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:1.5em;
+font-size:1.5vw;
 color:#f17c9d;
 @media (max-width: 800px) {
     flex-direction:column;
-    font-size:1em;
+    font-size:3vw;
      width:100%;
   }
 
@@ -92,6 +92,6 @@ justify-content:center;
 align-items:center;
 width:60%;
 height:10vh;
-font-size:2.5em;
+font-size:2.5vw;
 color:#ad5478;
 `

@@ -35,8 +35,7 @@ export const ImgLogo = styled.img`
 width:60%;
 heigth:50%;
 @media (max-width: 800px) {
-  width:100%;
-heigth:100%;
+  width:60%;
 
   }
 
@@ -110,23 +109,20 @@ color: black;
 `
 
 export const Div = styled.div`
-height:20%;
+height:30vh;
+@media (max-width: 800px) {
+  height:13vh;
+  
+  }
 
 `
 export const Hdois = styled.h2`
-height:15vh;
+
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:7em;
+font-size:5.5vw;
 color:#743959;
-
-@media (max-width: 800px) {
-    font-size:1.8em;
-    height:10vh;
-  }
-
-
 
 `
 export const P = styled.p`
@@ -134,11 +130,11 @@ height:10vh;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:5em;
+font-size:4.5vw;
 color: #f6a9bb;
 
 @media (max-width: 800px) {
-    font-size:1.7em;
+    
     height:8vh;
   }
 

@@ -6,7 +6,7 @@ import Contatos from '../Pages/Contatos'
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import * as S from '../Components/Styled/HeaderStyled'
 import Nav from "./Nav"
-import Logo from '../Components/Img/Logo.png'
+import Logo from '../Components/Img/Sc-S.png'
 export default function Header(){
 const [open, setOpen]=useState()
 

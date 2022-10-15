@@ -25,15 +25,15 @@ display:flex;
 justify-content:space-evenly;
 align-items:center;
 height:10vh;
-font-size:3em;
 text-decoration: none;
 width:90%;
 @media (max-width: 800px) {
     flex-direction:column;
-    font-size:1em;
+    
   }
 `
 export const Links = styled(Link)`
 text-decoration: none;
 color:#743959;
+font-size:2vw;
 `

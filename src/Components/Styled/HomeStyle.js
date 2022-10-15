@@ -17,11 +17,11 @@ height:20vh;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:5em;
+font-size:2vw;
 color:#743959;
 
 @media (max-width: 800px) {
-    font-size:2em;
+    
   }
 
 
@@ -43,7 +43,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
-font-size:2em;
+
 
 @media (max-width: 800px) {
      width:80%;
@@ -52,23 +52,24 @@ font-size:2em;
 `
 
 export const Img = styled.img`
-height:45vh;
+height:40vh;
 border-radius:10px ;
 
 `
 
 
 export const P = styled.p`
-font-size:1em;
+
 width:70%;
 height:10vh;
 color:#ad5478;
-
+font-size:2vw;
 @media (max-width: 800px) {
   width:100%;
   height:9vh;
   text-indent: 15%;
-  font-size:0.6em;
+  font-size:4vw;
+
   
 }
 
@@ -78,7 +79,7 @@ export const Figure = styled.figure`
 
 @media (max-width: 800px) {
   height:50vh;
-  font-size:1em;
+ 
 }
 
 `
