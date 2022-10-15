@@ -37,11 +37,10 @@ export default function Contatos() {
             </S.DivT>
             <S.Button value="Send"> Enviar</S.Button>            
         </S.Form>
-        <S.DivIcone>
-       
+        <S.DivIcone>      
        
             <S.A href='https://github.com/StefanyCandida' target="_blanck">  <FiGithub/> Stefany Candida</S.A> 
-            <S.A href='https://wa.me/5561993352499' target="_blanck" title="61 99335 2499" > <SiWhatsapp/> (61)9 9335 2499</S.A>
+            <S.A href='https://wa.me/5561993352499' target="_blanck" title="61 99335 2499" > <SiWhatsapp/>  (61)9 9335 2499</S.A>
             <S.A href='https://www.linkedin.com/in/stefanycandida/' target="_blanck"><ImLinkedin2/> Stéfany Candida</S.A>
             <S.A href='https://www.linkedin.com/in/stefanycandida/' target="_blanck"><SiGmail/> stefany.candida</S.A>
         </S.DivIcone>

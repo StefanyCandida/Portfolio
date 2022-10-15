@@ -56,7 +56,7 @@ text-indent:3%;
 export const Textarea = styled.textarea`
 width:80%;
 border-radius:20px;
-text-indent:3%;
+text-indent:5%;
 font-size:0.8em;
 
 `
@@ -72,17 +72,26 @@ height:40%;
 justify-content:space-evenly;
 display:flex;
 flex-direction:column;
+align-items:center;
+width:20%;
 
+@media (max-width: 800px) {
+    
+    width:60%;
+  }
 `
 export const A = styled.a`
 color:#ad5478;
-
-text-decoration:none;
+ display:flex;
+ align-items:center;
+ justify-content:space-evenly;
+ text-decoration:none;
+ width:100%;
 @media (max-width: 800px) {
-    display:flex;
-    align-items:end;
+   
+    letter-spacing: 2px;
    font-size:0.5em;
     height:35%;
-  
+    width:100%;
   }
 `
